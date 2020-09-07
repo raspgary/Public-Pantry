@@ -20,7 +20,7 @@ By connecting the community in this way, not only is the gap in the fragile food
 
 You can visit this link https://fathomless-woodland-86230.herokuapp.com/, where you can interact with the deployed application on Heroku. 
 
-You can log in using the username `simplysai`
+You can log in using the username `raspgary`
 
 **Option 2:**
 
@@ -34,4 +34,4 @@ Next, go into the directory titled `pp-react` and and also run `npm install`.
 
 Finally, go back to the root directory of the submission and run `npm run dev`.
 
-You can log in using the usernames `simplysai`
+You can log in using the usernames `raspgary`
