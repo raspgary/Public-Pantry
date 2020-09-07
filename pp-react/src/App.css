@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.Internal {
+  text-align: center;
+}
+
+.App-logo {
+  height: 20vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Calc-body {
+  background-color: #61dafb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#textBox {
+  background-color: #ffffff;
+  height: 10vmin;
+  width: 52vmin;
+  margin: 2vmin;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  text-align: right;
+}
+.threeU {
+  height: 10vmin;
+  width: 38vmin;
+  margin: 2vmin;
+  font-size: calc(10px + 2vmin);
+}
+
+#clearBtn {
+  background-color: aquamarine;
+}
+
+#divideBtn,
+#plusBtn,
+#multBtn,
+#subtBtn,
+#equalBtn {
+  background-color: orange;
+}
+
+.oneU {
+  height: 10vmin;
+  width: 10vmin;
+  margin: 2vmin;
+  font-size: calc(10px + 2vmin);
+}

@@ -1,0 +1,132 @@
+#spacing {
+  padding-top: 4vh;
+  padding-bottom: 1vh;
+}
+#spacing-from-icon {
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+#pagewrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  left: 0vh;
+  right: 0vh;
+}
+
+#logo {
+  /* position: relative;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  display: block; */
+
+  width: 44vh !important;
+  height: 18vh !important;
+  /* top: 20%; */
+}
+
+#slogan1 {
+  /* position: relative;
+  left: 50%;
+  right: 50%;
+  width: 85%;
+  height: 35%;
+  text-align: center;
+  transform: translateX(-50%);
+  display: block; */
+
+  font-weight: bolder;
+  color: #77dd77;
+
+  font-size: 9vh;
+
+  /*font-family: "Montserrat";*/
+  padding-bottom: 2vh;
+  text-shadow: -1px 1px 0 #48586b, 1px 1px 0 #48586b, 1px -1px 0 #48586b,
+    -1px -1px 0 #48586b;
+}
+
+#slogan2 {
+  /* position: relative;
+  left: 50%;
+  right: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  display: block; */
+
+  /*font-family: "Montserrat";*/
+  font-weight: bold;
+  color: #48586b;
+
+  width: 120vmin;
+  height: 10vmin;
+  font-size: 4vh;
+}
+
+#login {
+  /* position: relative;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%); */
+  border: 3px solid #77dd77;
+  /* display: block; */
+
+  color: #48586b;
+  text-align: center;
+  border-radius: 30vmin;
+  outline: none;
+  margin-top: 3vh;
+  /*font-family: "Montserrat";*/
+  /*/hc/*/
+  width: 36vmin;
+  height: 5vmin;
+  font-size: 3vmin;
+}
+
+#loginbtn {
+  /* position: relative;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  display: block; */
+
+  /*font-family: "Montserrat";*/
+
+  color: #ffffff;
+  background: #77dd77;
+  /* box-shadow: 0vmin 1vmin 1vmin rgba(0, 0, 0, 0.25),
+    inset 0vmin 1vmin 1vmin rgba(0, 0, 0, 0.25); */
+  border-radius: 30vmin;
+  outline: none;
+
+  width: 37vmin;
+  height: 6vmin;
+  font-size: 3vmin;
+  margin-top: 1vmin;
+}
+
+.background-photo {
+  position: fixed;
+  width: 100%;
+  /* height: 100%; */
+  left: 0vh;
+  right: 0vh;
+
+  /*opacity: 0.8;
+	opacity: 0.4;*/
+  opacity: 0.3;
+}
+
+#backgroundParent {
+  position: fixed;
+  /* width: 100%;
+  height: 100%; */
+  left: 0vh;
+  right: 0vh;
+}

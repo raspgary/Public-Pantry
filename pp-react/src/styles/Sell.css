@@ -1,0 +1,318 @@
+.SoldFoods-body {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-left: 27vh;
+}
+
+/* #sellFoodBtn {
+  background-color: violet;
+  height: 10vmin;
+  width: 38vmin;
+  margin: 2vmin;
+  font-size: calc(10px + 2vmin);
+} */
+
+#sellFoodBtn {
+  position: relative;
+
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  /* background: #a0e7a0; */
+  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+  border: 1px solid white;
+  border-radius: 1vh;
+  margin-top: 1vh;
+  background-color: #ffbf5e;
+  margin-bottom: 1vh;
+  float: right !important;
+  font-size: 3vh;
+  width: 6vh;
+  height: 6vh;
+  outline: hidden;
+  /* margin: 1vh; */
+}
+
+#sellFoodBtn:active {
+  outline: none;
+  border: none;
+}
+
+#sellFoodBtn:focus {
+  outline: none;
+}
+
+#deleteSellBtn {
+  position: relative;
+
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  /* background: #a0e7a0; */
+  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+  border: 1px solid white;
+  border-radius: 3vh;
+  margin-top: 1vh;
+  background-color: tomato;
+
+  font-size: 2vh;
+  width: 10vh;
+  height: 4vh;
+  outline: hidden;
+  margin: 2vh;
+  /* float: left !important; */
+}
+
+#deleteSellBtn:active {
+  outline: none;
+  border: none;
+}
+
+#deleteSellBtn:focus {
+  outline: none;
+}
+
+#sell-comp {
+  background-color: #ffffff;
+  width: 100%;
+  /* color: teal; */
+  min-height: 6vh;
+  margin-bottom: 3vmin;
+  border-radius: 3vh;
+  align-items: left;
+  box-shadow: 0vh 0vh 1vh rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  /* inset 0px 4px 4px rgba(0, 0, 0, 0.25); */
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  /* display: flex; */
+  /* border: 3px solid #77dd77; */
+}
+
+/* #deleteSellBtn {
+  height: 4vmin;
+  width: 4vmin;
+  background-color: tomato;
+  font-size: 2vmin;
+  float: right;
+  margin-right: 2vmin;
+  margin-top: 1vmin;
+} */
+
+/* #sold-container {
+  width: 100vmin;
+} */
+
+#sellModal {
+  margin-top: 20vmin;
+  height: 74vmin;
+  width: 60vmin;
+  display: none;
+  position: fixed;
+  background-color: white;
+  border: black 1px solid;
+  border-radius: 1vh;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+
+/* #closeModalBtn {
+  /* height: 4vmin;
+  width: 4vmin;
+  background-color: tomato;
+  font-size: 2vmin;
+  float: right;
+  margin-right: 2vmin;
+  margin-top: 1vmin; 
+} */
+
+#closeModalBtn {
+  position: relative;
+
+  font-style: normal;
+  font-weight: normal;
+  /* color: #ffffff; */
+  /* background: #a0e7a0; */
+  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+  border: 1px solid white;
+  border-radius: 3vh;
+  margin-top: 1vh;
+  /* background-color: tomato; */
+
+  font-size: 3vh;
+  width: 2vh;
+  height: 2vh;
+  outline: hidden;
+  /* margin: 1vh; */
+}
+
+#closeModalBtn:active {
+  outline: none;
+  border: none;
+}
+
+#closeModalBtn:focus {
+  outline: none;
+}
+
+.label {
+  color: black;
+  margin: 1vmin;
+  display: block;
+}
+
+.addSaleInput {
+  /* border: 3px solid #77dd77; */
+  /* display: block; */
+
+  color: #48586b;
+  text-align: center;
+  /* border-radius: 30vmin; */
+  outline: none;
+  /*font-family: "Montserrat";*/
+  /*/hc/*/
+
+  border-color: gray;
+
+  width: 36vmin;
+  height: 5vmin;
+  font-size: 3vmin;
+  border-radius: 2vh;
+}
+
+/* #submitSaleBtn {
+  height: 4vmin;
+  width: 10vmin;
+  background-color: greenyellow;
+  font-size: 2vmin;
+  /* display: block; */
+
+/* margin-right: 2vmin;
+      margin-top: 1vmin; 
+} */
+
+#submitSaleBtn {
+  position: relative;
+
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  /* background: #a0e7a0; */
+  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+  border: 1px solid white;
+  border-radius: 3vh;
+  margin-top: 1vh;
+  background-color: #ffbf5e;
+
+  font-size: 3vh;
+  width: 12vh;
+  height: 5vh;
+  outline: hidden;
+  /* margin: 1vh; */
+}
+
+#submitSaleBtn:active {
+  outline: none;
+  border: none;
+}
+
+#submitSaleBtn:focus {
+  outline: none;
+}
+
+.saleInfo {
+  margin: 1vmin;
+  display: inline;
+}
+
+#sellPic {
+  float: left;
+  width: 26vh;
+  height: 26vh;
+  margin: 1vh;
+
+  /* display: inline; */
+}
+
+#filename {
+  display: inline;
+  color: black;
+  font-size: 2vh;
+}
+
+.ri-container {
+  margin-left: 25vh;
+  /* display: inline; */
+  /* float: left; */
+}
+
+.sellInfo {
+  margin: 2vmin;
+  font-size: 2vh;
+  color: #5c5c5c;
+  /* font-size: calc(10px + 2vmin); */
+  /* display: block; */
+}
+
+#sold-container {
+  width: 100vmin;
+  /* display: flex; */
+}
+
+#pHeader {
+  color: #77dd77;
+  font-size: 6vh;
+}
+
+#descInput {
+  border-radius: 2vh;
+  resize: none;
+  border-color: gray;
+  border-width: medium;
+  outline: none;
+  text-align: center;
+  font-size: 2vh;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#fileB {
+  /* height: 4vmin;
+  width: 10vmin; */
+  position: relative;
+
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  /* background: #a0e7a0; */
+  /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+  border: 1px solid white;
+  border-radius: 3vh;
+  margin-top: 1vh;
+  margin-right: 1vh;
+  background-color: #77dd77;
+
+  font-size: 2vh;
+  width: 14vh;
+  height: 5vh;
+  outline: hidden;
+  /* margin: 1vh; */
+}
+
+#fileB:active {
+  outline: none;
+  border: none;
+}
+
+#fileB:focus {
+  outline: none;
+}
